@@ -73,6 +73,8 @@ tidy_data <- aggregate(all_data, by = list(activity = all_data$activity_name, su
 # remove redundant subject_id and activity_name columns
 tidy_data <- subset(tidy_data, select = -c(subject_id, activity_name))
 
+# export the data as txt
+write.table(tidy_data, "Samsung_Data.txt", sep = "")
 # export the data as csv
-write.csv(tidy_data, file="Samsung_Data.csv" )
+#write.csv(tidy_data, file="Samsung_Data.csv")
 
