@@ -50,4 +50,4 @@ Create 'tidy_data' by aggregating 'all_data' by 'activity_name' and 'subject_id'
 
 Remove 'subject_id' and 'activity_name' columns (since they only show NA).
 
-Write 'tidy_data' into a csv file 'Samsung_Data.csv'.
+Write 'tidy_data' into a txt file 'Samsung_Data.txt'.
